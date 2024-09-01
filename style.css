@@ -76,12 +76,19 @@ textarea:not([rows]) {
 
 /*fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
 html{
   background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
 }
-*{
-    font-family: "Figtree", sans-serif;
+
+header, body{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
 }
+
 .category{
     font-weight: 800;
     color: hsl(0, 0%, 7%);
@@ -89,7 +96,8 @@ html{
 h1{
     font-weight: 800;
     line-height: 150%;
-   color:hsl(0, 0%, 7%) ; 
+    color:hsl(0, 0%, 7%); 
+    font-size: 2rem;
 }
 
 p{
@@ -99,29 +107,27 @@ p{
   line-height: 150%;
 }
 /*images*/
-.image1{
-max-width: 336px;
-max-height:200px;
-border-radius: 10px;
+img{
+  border-radius: 10px;
+  max-width: 336px;
+  max-height:200px;
 }
 .image2{
-  width: 32px;
-  height: 32px;
+  max-width: 32px;
+  max-height: 32px;
 }
 
 .card{
 background-color: hsl(0, 0%, 100%);
 max-width:384px;
 max-height:522px;
-padding: 10px;
-border-radius: 20px;
-display: flex;
-align-items: center;
-flex-direction: column;
-align-content: flex-start;
+padding: 12px;
+margin: 12px;
+border-radius: 10px;
 border: 1px solid;
-width: min-content;
+overflow: none;
 }
+
 
 .container1{
 max-width: 336px;
