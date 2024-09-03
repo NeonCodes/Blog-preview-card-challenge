@@ -82,7 +82,7 @@ html{
   font-family: "Figtree", sans-serif;
 }
 
-header, body{
+header, body, section{
 display: flex;
 align-items: center;
 justify-content: center;
