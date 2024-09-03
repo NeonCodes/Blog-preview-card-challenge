@@ -113,13 +113,14 @@ h5{
 
 .date{
   font-size:0.875rem;
+  padding-left: 0%;
 }
 h1{
-    font-weight: 800;
-    line-height: 150%;
-    color:hsl(0, 0%, 7%); 
-    font-size: 1.5rem;
-    
+  font-weight: 800;
+  line-height: 150%;
+  color:hsl(0, 0%, 7%); 
+  font-size: 1.5rem;
+  text-align: center;   
 }
 
 p{
@@ -148,15 +149,11 @@ padding:24px;
 margin: 12px;
 border-radius: 10px;
 border: 1px solid;
-overflow: none;
 width: min-content;
 }
 
 .container1{
 max-width:336px;
 max-height:194px;
-border: 12px;
-padding: 12px;
-margin: 12px;
 box-sizing: content-box;
 }
