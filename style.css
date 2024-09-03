@@ -119,6 +119,7 @@ h1{
     line-height: 150%;
     color:hsl(0, 0%, 7%); 
     font-size: 1.5rem;
+    
 }
 
 p{
@@ -129,9 +130,9 @@ p{
 }
 /*images*/
 img{
-  border-radius: 10px;
   max-width: 336px;
   max-height:200px;
+  border-radius: 10px; 
 }
 .image2{
   max-width: 32px;
@@ -143,7 +144,7 @@ img{
 background-color: hsl(0, 0%, 100%);
 max-width:384px;
 max-height:522px;
-padding: 12px;
+padding:24px;
 margin: 12px;
 border-radius: 10px;
 border: 1px solid;
@@ -158,5 +159,4 @@ border: 12px;
 padding: 12px;
 margin: 12px;
 box-sizing: content-box;
-
 }
