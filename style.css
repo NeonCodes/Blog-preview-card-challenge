@@ -79,7 +79,6 @@ textarea:not([rows]) {
 
 html{
   background-color: hsl(47, 88%, 63%);
-  font-family: "Figtree", sans-serif;
 }
 
 header, body{
@@ -90,39 +89,42 @@ flex-direction: column;
 }
 
 .category{
-    font-weight: 500;
-    color: hsl(0, 0%, 7%);
-    background-color:hsl(47, 88%, 63%);
-    max-width: 82px;
-    max-height: 29px;
-    border-radius: 4px;
-    margin: 8px;
-    padding-top, padding-bottom: 4px;
-    padding-left, padding-right:12px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    flex-direction:column;   
+  background-color:hsl(47, 88%, 63%);
+  max-width: 82px;
+  max-height: 29px;
+  border-radius: 4px;
+  margin: 8px;
+  padding-top, padding-bottom: 4px;
+  padding-left, padding-right:12px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;   
 }
 h5{
-  max-width: 58;
-  max-height: 21;
+  font-weight: 800;
+  color: hsl(0, 0%, 7%);
+  /*max-width: 58;
+  max-height: 21;*/
   font-size:0.875rem;
   font-family:"Figtree Extra Bold", sans-serif;
+
 }
 
 .date{
   font-size:0.875rem;
   padding-left: 0%;
+  font-family: "Figtree Medium";
 }
 h1{
+  font-family:"Figtree Extra Bold", sans-serif;
   font-weight: 800;
   line-height: 150%;
   color:hsl(0, 0%, 7%); 
   font-size: 1.5rem;
 }
 
-p{
+.paragraph{
   font-size: 1rem;
   color: hsl(0, 0%, 42%);
   font-weight: 500;
@@ -138,6 +140,10 @@ img{
   max-width: 32px;
   max-height: 32px;
   padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .card{
@@ -156,4 +162,18 @@ max-width:336px;
 max-height:194px;
 box-sizing: content-box;
 padding-top: 12px;
+}
+
+.author{
+
+}
+
+h3{
+font-family: "Figtree Extra Bold", sans-serif;
+display: flex;
+flex-direction:row;
+align-items: flex-end;
+justify-content: flex-end;
+flex-direction: row-reverse;
+flex: content;
 }
