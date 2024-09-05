@@ -93,7 +93,7 @@ flex-direction: column;
   max-width: 82px;
   max-height: 29px;
   border-radius: 4px;
-  margin: 8px;
+  margin-top: 8px;
   padding-top, padding-bottom: 4px;
   padding-left, padding-right:12px;
   display:flex;
@@ -124,13 +124,14 @@ h1{
   font-size: 1.5rem;
 }
 
-.paragraph{
+.paragraph p{
   font-size: 1rem;
   color: hsl(0, 0%, 42%);
   font-weight: 500;
   line-height: 150%;
   display: flex;
   flex-direction: column;
+  align-content: space-around;
 }
 /*image 1*/
 img{
@@ -172,4 +173,8 @@ align-items: start;
 font-family: "Figtree Extra Bold", sans-serif;
 font-size:0.875rem;
 align-self: center;
+}
+
+.attribution{
+  padding-top: 12px;
 }
