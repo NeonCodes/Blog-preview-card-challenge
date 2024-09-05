@@ -161,13 +161,15 @@ padding-top: 12px;
 max-width: 129px;
 max-height: 32px;
 padding-top: 12px;
-display:grid;
-grid-template-columns: 129px 129px 32px 32px;
+display:flex;
+flex-direction:row;
 justify-content: space-between;
 align-items: start;
+
 }
 
 .authorname{
 font-family: "Figtree Extra Bold", sans-serif;
 font-size:0.875rem;
+align-self: center;
 }
