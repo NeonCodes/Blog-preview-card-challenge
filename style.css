@@ -102,12 +102,12 @@ flex-direction: column;
   flex-direction:column;   
 }
 .category h5{
+  font-family: "Figtree Extra Bold", sans-serif;
   font-weight: 800;
   color: hsl(0, 0%, 7%);
   /*max-width: 58;
   max-height: 21;*/
-  font-size:0.875rem;
-  font-family:"Figtree Extra Bold", sans-serif;
+  font-size:0.875rem.
 
 }
 
@@ -117,7 +117,7 @@ flex-direction: column;
   font-family: "Figtree Medium";
 }
 h1{
-  font-family:"Figtree Extra Bold", sans-serif;
+  font-family: "Figtree Extra Bold", sans-serif;
   font-weight: 800;
   line-height: 150%;
   color:hsl(0, 0%, 7%); 
@@ -169,8 +169,9 @@ align-items: start;
 
 }
 
-.authorname{
+.authorname h4{
 font-family: "Figtree Extra Bold", sans-serif;
+font-weight: 800;
 font-size:0.875rem;
 align-self: center;
 }
