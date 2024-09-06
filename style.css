@@ -79,6 +79,7 @@ textarea:not([rows]) {
 
 html{
   background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
 }
 
 header, body{
@@ -166,15 +167,17 @@ margin: 12px;
 border-radius: 10px;
 border: 1px solid;
 width: min-content;
+box-shadow: 6px 6px 5px hsl(0, 0%, 7%);
+box-shadow: inset;
 }
-
+/*second text container */
 .container1{
 max-width:336px;
 max-height:194px;
 box-sizing: content-box;
 padding-top: 12px;
 }
-
+/*second text container */
 .author{
 max-width: 129px;
 max-height: 32px;
