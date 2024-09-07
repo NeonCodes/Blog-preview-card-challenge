@@ -110,13 +110,12 @@ transform: scale();
   /*max-width: 58;
   max-height: 21;*/
   font-size:0.875rem.
-
 }
 
-.date{
+.date p{
   font-size:0.875rem;
   padding-left: 0%;
-  font-family: "Figtree Medium";
+  font-family:"Figtree Medium", sans-serif;
   color: hsl(0, 0, 7%);
 }
 h1{
@@ -140,6 +139,10 @@ a :hover{
   color:hsl(47, 88%, 63%);
   text-decoration: none;
 }
+a :active{
+  color:hsl(47, 88%, 63%);
+  text-decoration:none;
+}
 
 .paragraph p{
   font-size: 1rem;
@@ -149,7 +152,7 @@ a :hover{
   max-width:336px ;
   max-height:72px;
   word-spacing:1.5px;
-
+  margin-bottom:12px;
 }
 /*image 1*/
 img{
@@ -168,6 +171,7 @@ border-radius: 10px;
 border: 1px solid;
 width: min-content;
 box-shadow: 6px 6px 5px hsl(0, 0%, 7%);
+box-shadow: black;
 box-shadow: inset;
 }
 /*second text container */
@@ -189,12 +193,19 @@ align-items: start;
 color: hsl(0, 0, 7%);
 }
 
-.authorname{
-font-family: "Figtree Extra Bold", sans-serif;
+.author p{
+font-family:"Figtree Extra Bold", sans-serif;
 color: hsl(0, 0, 7%);
 font-weight: 800;
 font-size:0.875rem;
-align-self: center;
+max-width: 85px;
+max-height: 21px;
+}
+
+.authorname{
+display: flex;
+align-self:center;
+overflow:none;
 }
 
 .attribution{
