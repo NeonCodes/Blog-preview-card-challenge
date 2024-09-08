@@ -78,8 +78,8 @@ textarea:not([rows]) {
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
 html{
-  background-color: hsl(47, 88%, 63%);
-  font-family: "Figtree", sans-serif;
+background-color: hsl(47, 88%, 63%);
+font-family: "Figtree", sans-serif;
 }
 
 header, body{
@@ -91,44 +91,42 @@ transform: scale();
 }
 
 .category{
-  background-color:hsl(47, 88%, 63%);
-  max-width: 82px;
-  max-height: 29px;
-  border-radius: 4px;
-  margin-top: 8px;
-  padding-top, padding-bottom: 4px;
-  padding-left, padding-right:12px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  flex-direction:column;   
+background-color:hsl(47, 88%, 63%);
+max-width: 82px;
+max-height: 29px;
+border-radius: 4px;
+margin-top: 8px;
+padding-top, padding-bottom:4px;
+padding-left, padding-right:12px;
+display:flex;
+align-items:center;
+justify-content:center;
+flex-direction:column;   
 }
 .category h5{
-  font-family: "Figtree Extra Bold", sans-serif;
-  font-weight: 800;
-  color: hsl(0, 0%, 7%);
-  /*max-width: 58;
-  max-height: 21;*/
-  font-size:0.875rem.
+font-family: "Figtree Extra Bold", sans-serif;
+font-weight: 800;
+color: hsl(0, 0%, 7%);
+font-size:0.875rem;
 }
 
 .date p{
-  font-size:0.875rem;
-  padding-left: 0%;
-  font-family:"Figtree Medium", sans-serif;
-  color: hsl(0, 0, 7%);
+font-size:0.875rem;
+padding-left: 0%;
+font-family:"Figtree Medium", sans-serif;
+color: hsl(0, 0, 7%);
 }
 h1{
-  font-family: "Figtree Extra Bold", sans-serif;
-  font-weight: 800;
-  line-height: 150%;
-  color:hsl(0, 0%, 7%);
-  font-size: 1.5rem;
-  cursor: pointer;
-  text-decoration: none;
+font-family: "Figtree Extra Bold", sans-serif;
+font-weight: 800;
+line-height: 150%;
+color:hsl(0, 0%, 7%);
+font-size: 1.5rem;
+cursor: pointer;
+text-decoration: none;
 }
 a{
-  text-decoration: none;
+text-decoration: none;
 }
 
 a:focus{
@@ -145,14 +143,14 @@ a :active{
 }
 
 .paragraph p{
-  font-size: 1rem;
-  color: hsl(0, 0%, 42%);
-  font-weight: 500;
-  line-height: 150%;
-  max-width:336px ;
-  max-height:72px;
-  word-spacing:1.5px;
-  margin-bottom:12px;
+font-size: 1rem;
+color: hsl(0, 0%, 42%);
+font-weight: 500;
+line-height: 150%;
+max-width:336px ;
+max-height:72px;
+word-spacing:1px;
+margin-bottom:12px;
 }
 /*image 1*/
 img{
@@ -180,6 +178,7 @@ max-width:336px;
 max-height:194px;
 box-sizing: content-box;
 padding-top: 12px;
+padding-bottom: 24px;
 }
 /*second text container */
 .author{
@@ -193,16 +192,20 @@ align-items: start;
 color: hsl(0, 0, 7%);
 }
 
-.author p{
-font-family:"Figtree Extra Bold", sans-serif;
-color: hsl(0, 0, 7%);
-font-weight: 800;
-font-size:0.875rem;
+.author{
 max-width: 85px;
 max-height: 21px;
+display: flex;
+align-items: flex-start;
+align-content: space-between;
+justify-content: center;
 }
 
-.authorname{
+.authorname p{
+font-family:"Figtree Extra Bold", sans-serif;
+font-size:0.875rem;
+font-weight: 800;
+color: hsl(0, 0, 7%);
 display: flex;
 align-self:center;
 overflow:none;
