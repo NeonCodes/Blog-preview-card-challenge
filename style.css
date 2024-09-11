@@ -148,6 +148,7 @@ a :active{
 }
 
 .paragraph p{
+font-family: "Figtree Medium", sans-serif;
  font-size: 1rem;
  color: hsl(0, 0%, 42%);
  font-weight: 500;
@@ -156,6 +157,9 @@ a :active{
  max-height:72px;
  word-spacing:1px;
  margin-bottom:12px;
+ display: flex;
+ flex-direction: column;
+ align-self: flex-start;
 }
 /*image 1*/
 img{
@@ -175,8 +179,6 @@ border: 1px solid;
 width: min-content;
 box-shadow: 8px 8px 4px hsl(0, 0%, 7%);
 box-shadow: black;
-box-shadow: inset;
-overflow:none;
 }
 /* text container */
 .container1{
@@ -184,19 +186,20 @@ max-width:336px;
 max-height:194px;
 box-sizing: content-box;
 padding-top: 12px;
-
+display: flex;
+flex-direction: column;
 }
 /* text container */
 .author{
-max-width: 129px;
-max-height: 32px;
-margin-top: 6px;
-border: 6px;
-padding-top: 12px;
-display: flex;
-flex-direction:row;
-align-items:start;
-justify-content:space-between;
+ max-width: 129px;
+ max-height: 32px;
+ margin-top: 6px;
+ border: 6px;
+ padding-top: 12px;
+ display: flex;
+ align-items:center;
+ flex-direction:row;
+ justify-content:space-between;
 }
 
 .author h4{
@@ -206,16 +209,11 @@ justify-content:space-between;
  max-width: 85px;
  max-height:21px;
  color: hsl(0, 0, 7%);
- align-self:center;
-
-}
-.name{
-
+ display: flex;
+ align-self: center;
 }
 
-.surname{
- 
-}
+
 /*footer*/
 .attribution{
   padding-top: 12px;
