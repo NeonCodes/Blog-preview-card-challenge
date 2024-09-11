@@ -193,26 +193,23 @@ flex-direction: column;
 }
 /* text container */
 .author{
- max-width: 129px;
- max-height: 32px;
+ min-width: 129px;
+ min-height: 32px;
  margin-top: 6px;
  border: 6px;
  padding-top: 12px;
  display: flex;
  align-items:center;
- flex-direction:row;
- justify-content:space-between;
+ flex-direction: row;
+ gap: 10px;
 }
 
 .author h4{
  font-family:"Figtree Extra Bold", sans-serif;
  font-size:0.875rem;
  font-weight: 800;
- max-width: 85px;
- max-height:21px;
+ display: flexbox;
  color: hsl(0, 0, 7%);
- display: flex;
- align-self: center;
 }
 
 
