@@ -217,9 +217,13 @@ flex-direction: column;
 .attribution{
   padding-top: 12px;
   color: hsl(0, 0, 7%);
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  gap: 2px;
 }
 
 .website, .user{
-  text-decoration: underline;
   color: blue;
+  text-decoration: underline;
 }
