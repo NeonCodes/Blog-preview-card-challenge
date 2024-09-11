@@ -217,5 +217,9 @@ flex-direction: column;
 .attribution{
   padding-top: 12px;
   color: hsl(0, 0, 7%);
+}
+
+.website, .user{
   text-decoration: underline;
+  color: blue;
 }
