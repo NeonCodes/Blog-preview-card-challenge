@@ -182,8 +182,8 @@ border: 1px solid;
 width: min-content;
 box-shadow: 8px 8px 4px hsl(0, 0%, 7%);
 }
-/* text container */
-.container1{
+/* main text content */
+main{
 max-width:336px;
 max-height:194px;
 box-sizing: content-box;
