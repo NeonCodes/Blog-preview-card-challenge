@@ -86,7 +86,6 @@ html{
 body{
   display: flex;
   flex-direction: column;
-  -ms-flex-align: center;
   align-items: center;
   justify-content: center;
    align-content: center;   
