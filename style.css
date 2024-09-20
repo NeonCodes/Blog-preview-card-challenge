@@ -105,11 +105,13 @@ body{
  flex-direction:column;
  align-items:center;
 }
-  h3{
+/*span facilitates styling*/
+span{
  font-family: "Figtree Extra Bold", sans-serif;
  font-weight: 800;
  color: hsl(0, 0%, 7%);
  font-size:0.875rem;
+ align-self: center;
 }
 
 .date p{
@@ -196,7 +198,7 @@ flex-direction: column;
  gap: 10px;
 }
 
- .author h4{
+  h3{
  font-family:"Figtree Extra Bold", sans-serif;
  font-size:0.875rem;
  font-weight: 800;
